@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\AlphaBetBoardPath.cpp" />
     <ClCompile Include="src\BaseTest.cpp" />
     <ClCompile Include="src\LeetCodeTest.cpp" />
     <ClCompile Include="src\PowerOfFour.cpp" />
@@ -26,6 +27,7 @@
     <ClCompile Include="src\UncompressCode.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\AlphaBetBoardPath.h" />
     <ClInclude Include="src\BaseTest.h" />
     <ClInclude Include="src\PowerOfFour.h" />
     <ClInclude Include="src\TestBadCal.h" />

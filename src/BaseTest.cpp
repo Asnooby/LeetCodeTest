@@ -9,3 +9,8 @@ vector<int> BaseTest::test(const vector<int>&)
 {
 	return vector<int>();
 }
+
+string BaseTest::test(const char*)
+{
+	return string();
+}

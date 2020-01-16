@@ -6,6 +6,7 @@
 #include "TestBadCal.h"
 #include "UncompressCode.h"
 #include "PowerOfFour.h"
+#include "AlphaBetBoardPath.h"
 
 using namespace std;
 #define safe_delete(obj) if (obj) { delete obj; obj = NULL;}
@@ -24,6 +25,11 @@ int main()
     test = new PowerOfFour();
     bool bRet = test->test(1, 5);
     bRet = test->test(1, 16);
+    safe_delete(test);
+
+    test = new AlphaBetBoardPath();
+    string sRet = test->test("leet");
+    sRet = test->test("zbz");
     safe_delete(test);
 
     std::cout << "Hello World!\n";
